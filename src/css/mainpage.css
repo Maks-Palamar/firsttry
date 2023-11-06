@@ -1,0 +1,73 @@
+.mainblock .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0 8px;
+}
+
+.searcher {
+    height: 46px;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    border-radius: 36px;
+    overflow: hidden;
+    padding: 0 16px;
+    background-color: #172026;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, .08);
+    cursor: pointer;
+}
+
+a,
+p {
+    color: white;
+}
+
+.cards-section {
+    margin-top: 20px;
+}
+
+.cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    /*width: calc((100% - 16px) / 2);*/
+}
+
+.categories-wrap {
+    display: flex;
+    width: calc((100% - 16px) / 2);
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    height: 48px;
+    padding: 0 12px;
+    border-radius: 12px;
+    background-position: 0 -48px;
+    background-size: cover;
+    background-image: url(../img/photo_2021-10-22_03-11-31.jpg);
+}
+
+.card {
+    overflow: hidden;
+    align-items: center;
+    z-index: 1;
+}
+
+/*.card::before {
+        height: 48px;
+            background-image: url(../img/photo_2021-10-22_03-11-31.jpg);
+            
+            content: "";
+                transition: transform .6s;
+                background-size: cover;
+                display: block;
+                position: absolute;
+                width: 220px;
+                right: 0;
+                background-position: 0 -48px
+}*/
